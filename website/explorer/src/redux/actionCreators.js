@@ -2,7 +2,7 @@ import * as ActionTypes from './actionTypes';
 import { call, put, takeEvery, all } from 'redux-saga/effects'
 import fetch from 'cross-fetch';
 
-const API = 'https://private-cc47d-cosmosexplorer.apiary-mock.com';
+const API = 'https://private-cc47d-cosmosexplorer.apiary-mock.com/api';
 const CHAIN_SIZE = '/chain_size';
 const AV_REWARD = '/average_reward';
 const Y_RETURN = '/yearly_return';
