@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ChainSize from './ChainSizeComponent';
+import AvReward from './AvRewardComponent';
+import YearlyReturn from './YearlyReturnComponent';
 
 class Main extends Component {
 
@@ -8,6 +10,8 @@ class Main extends Component {
     return (
       <div>
         <ChainSize />
+        <AvReward />
+        <YearlyReturn />
       </div>
     );
   }
